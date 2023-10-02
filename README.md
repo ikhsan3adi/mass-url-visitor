@@ -1,6 +1,6 @@
-# auto-visitor
+# mass-url-visitor
 
-Url visitor using Node.js
+Mass Url Visitor using Node.js
 
 ## How to run
 
