@@ -1,10 +1,10 @@
-import open, { apps, openApp } from 'open';
+import open, { apps } from 'open';
 import Visitor from './Visitor.js';
 
 // list of url to open
 const urls = [
   'http://localhost:5000',
-  'https://goggle.com',
+  'https://google.com',
   'https://x.com',
 ];
 
@@ -21,6 +21,6 @@ const app = {
   ]
 };
 
-const visitor = new Visitor({ open, openApp }, urls, app);
+const visitor = new Visitor(open, urls, app);
 
 visitor.execute(1);
